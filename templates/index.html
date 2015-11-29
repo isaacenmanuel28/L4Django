@@ -1,0 +1,24 @@
+<div class="container">
+<h1>
+    Realizado: por Isaac Pérez, Ángel González y Oasting Ferrera.
+</h1>
+  <h1>
+    Paises:
+  </h1>
+  <hr />
+  {% for pais in paises %}
+  <div class="art">
+    <h3>
+      {{ pais.Name }}
+
+    </h3>
+
+  <h4>
+      {{ pais.Code }}
+  </h4>
+
+  </div>
+  <hr />
+  {% endfor %}
+
+</div>
